@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+#center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+a:link .fa, a:visited .fa {
+    color: #ccc;
+}
