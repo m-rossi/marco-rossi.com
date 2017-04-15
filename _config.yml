@@ -1,0 +1,12 @@
+title: marco-rossi.com
+email: info@marco-rossi.com
+baseurl: ""
+url: "http://marco-rossi.com"
+twitter_username: _rossimarco
+github_username:  m-rossi
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
