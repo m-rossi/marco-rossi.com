@@ -4,6 +4,12 @@
         <link rel="canonical" href="https://marco-rossi.com" />
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <script>
+            var host = "marco-rossi.com";
+            if ((host == window.location.host) && (window.location.protocol != 'https:')) {
+                window.location = window.location.toString().replace(/^http:/, "https:");
+            }
+        </script>
     </head>
     <body>
         <div id="center">
