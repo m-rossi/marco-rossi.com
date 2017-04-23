@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script>
             var host = "marco-rossi.com";
-            if ((host == window.location.host) && (window.location.protocol != 'https:')) {
+            if (((host == window.location.host) || ("www.".concat(host) == window.location.host)) && (window.location.protocol != 'https:')) {
                 window.location = window.location.toString().replace(/^http:/, "https:");
             }
         </script>
